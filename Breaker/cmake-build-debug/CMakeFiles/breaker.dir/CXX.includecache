@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/anishnaik/Documents/Masters/CSE569S/Breaker/crypto/cryptoUtil.h
+ctime
+-
+cstring
+-
+string
+-
+
+/Users/anishnaik/Documents/Masters/CSE569S/Breaker/main.cpp
+crypto/cryptoUtil.h
+/Users/anishnaik/Documents/Masters/CSE569S/Breaker/crypto/cryptoUtil.h
+iostream
+-
+
